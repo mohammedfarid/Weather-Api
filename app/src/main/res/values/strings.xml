@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather Logger</string>
+    <string name="save">Save</string>
+    <string name="result">Last Result</string>
+
+
+    <string name="empty">No Data Save</string>
+</resources>
