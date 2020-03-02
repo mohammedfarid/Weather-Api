@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:gravity="center"
-                android:textColor="@color/colorVerySoftRed"
+                android:textColor="@color/colorSoftRed"
                 android:textSize="100sp"
                 tools:text="30&#8451;" />
 
@@ -46,7 +46,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_pin" />
+                    app:srcCompat="@drawable/ic_pin_home" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tvWeatherName"
@@ -57,7 +57,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:gravity="center"
-                    android:textColor="@color/colorVerySoftRed"
+                    android:textColor="@color/colorSoftRed"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -82,7 +82,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_calendar" />
+                    app:srcCompat="@drawable/ic_calendar_home" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tvWeatherDate"
@@ -93,7 +93,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:gravity="center"
-                    android:textColor="@color/colorVerySoftRed"
+                    android:textColor="@color/colorSoftRed"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
