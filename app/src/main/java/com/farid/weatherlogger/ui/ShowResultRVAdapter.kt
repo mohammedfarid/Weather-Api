@@ -18,7 +18,7 @@ class ShowResultRVAdapter(var weatherResponse: List<WeatherResponse>) :
         fun bind(weatherResponse: WeatherResponse) {
             tvWeatherDegree.text = weatherResponse.let {
                 it.main!!.temp + "\u2103"
-            } ?: "0\u2103"
+            }
 
             tvWeatherName.text = weatherResponse.let {
                 it.name
