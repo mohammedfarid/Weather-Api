@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import cc.cloudist.acplibrary.ACProgressConstant
 import cc.cloudist.acplibrary.ACProgressFlower
 
-open class BaseFargment : Fragment() {
+open class BaseFragment : Fragment() {
     companion object {
         private var dialog: ACProgressFlower? = null
     }

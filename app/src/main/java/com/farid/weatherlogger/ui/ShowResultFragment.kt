@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import com.farid.weatherlogger.R
-import com.farid.weatherlogger.bases.BaseFargment
+import com.farid.weatherlogger.bases.BaseFragment
 import com.farid.weatherlogger.model.response.WeatherResponse
 import com.farid.weatherlogger.viewModel.WeatherViewModel
 import kotlinx.android.synthetic.main.fragment_show_result.*
@@ -17,7 +17,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 /**
  * A simple [Fragment] subclass.
  */
-class ShowResultFragment : BaseFargment() {
+class ShowResultFragment : BaseFragment() {
     val weatherViewModel: WeatherViewModel by viewModel()
 
     var weatherResponse: WeatherResponse? = null
